@@ -23,5 +23,9 @@ first create a monitoring namespace
 ### 5. Set grafana dashboards
 import the json files under ./grafana-dashboards to grafana
 
+grafana default account
+> User: admin
+> Pass: admin
+
 ### Submit a flink example job (fraud detect)
 this job .jar file is under ./flink_example_job
