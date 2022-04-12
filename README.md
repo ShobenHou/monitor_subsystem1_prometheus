@@ -2,6 +2,9 @@
 
 can be deployed on GKE or other k8s environments
 
+first create a monitoring namespace
+> kubectl create namespace monitoring
+
 ### 0. Deploy and config Prometheus
 > kubectl create -f ./00-prometheus/*
 
