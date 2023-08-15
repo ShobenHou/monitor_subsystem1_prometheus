@@ -1,4 +1,4 @@
-# This repository is the subsystem I which is based on Prometheus.
+# This README tells you how to deploy subsystem I which is based on Prometheus and how to deploy and config Grafana in my MComp Dissertation Project
 
 can be deployed on GKE or other k8s environments
 
