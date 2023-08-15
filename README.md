@@ -1,4 +1,4 @@
-# cp3106
+# This repository is the subsystem I which is based on Prometheus.
 
 can be deployed on GKE or other k8s environments
 
@@ -6,10 +6,10 @@ first create a monitoring namespace
 > kubectl create namespace monitoring
 
 ### 0. Deploy and config Prometheus
-> kubectl create -f ./00-prometheus/*
+> kubectl create -f ./00-prometheus/
 
 ### 1. Deploy node-exporter
-> kubectl create -f ./01-node-exporter/*
+> kubectl create -f ./01-node-exporter/
 
 ### 2. Deploy kube-state-metrics exporter
 > kubectl create -f ./02-kube-state-metrics
